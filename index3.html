@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Application3</title>
+</head>
+<body>
+    
+    <div id="jadd"></div>
+    
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    
+    <script>
+
+        const khopdi = React.createElement(
+
+            "h1", // Type of tag
+
+            {},  // Javascript object for defining attributes to tag
+
+            "Written using React!" // child or children
+        );
+
+        const rootlet = ReactDOM.createRoot(
+            
+            document.getElementById("jadd")
+        );
+
+        rootlet.render(khopdi);
+
+    </script>    
+
+</body>
+</html>
